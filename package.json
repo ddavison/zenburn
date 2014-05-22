@@ -1,7 +1,7 @@
 {
   "name": "zenburn",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "A zenburn theme",
   "repository": "https://github.com/ddavison/zenburn",
