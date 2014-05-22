@@ -4,4 +4,4 @@ This theme is loosely based on the the theme found [here](https://github.com/Sty
 
 Screenshot(s)
 ===
-[![screen](http://i.imgur.com/wmcxeqN.png)]
+![screen](http://i.imgur.com/wmcxeqN.png)
