@@ -1,0 +1,191 @@
+@import 'stylesheets/syntax-variables';
+
+.editor-colors {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor {
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+
+    .cursor-line {
+      background-color: @syntax-gutter-background-color-selected;
+    }
+  }
+
+  .line-number.cursor-line-no-selection {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .invisible {
+    color: @syntax-text-color;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .search-results .marker .region {
+    background-color: transparent;
+    border: 1px solid @syntax-result-marker-color;
+  }
+
+  .search-results .marker.current-result .region {
+    border: 1px solid @syntax-result-marker-color-selected;
+  }
+
+  .gfm {
+    .markup {
+      &.heading {
+        color: #f0dfaf;
+        font-weight: bold;
+      }
+
+      &.underline {
+        color: #E6DB74;
+        text-decoration: underline;
+      }
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .raw {
+      color: #93e0e3;
+    }
+
+    .variable {
+      color: #8fb28f;
+    }
+
+    .variable.list {
+      color: #8fb28f;
+      font-weight: bold;
+    }
+
+    .link {
+      color: #CCC;
+
+      .entity {
+        color: #7cb8bb;
+      }
+    }
+  }
+}
+
+.comment {
+  color: #75715E;
+}
+
+.string {
+  color: #E6DB74;
+}
+
+.constant.numeric {
+  color: #6ca0a3;
+}
+
+.constant.language {
+  color: #6ca0a3;
+}
+
+.constant.character,
+.constant.other {
+  color: #6ca0a3;
+}
+
+.keyword {
+  color: #f0dfaf;
+}
+
+.storage {
+  color: #f0dfaf;
+}
+
+.storage.type {
+  font-style: italic;
+  color: #93e0e3;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #8fb28f;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  text-decoration: underline;
+  color: #f0dfaf;
+}
+
+.entity.name.function {
+  color: #7cb8bb;
+}
+
+.entity.name.instance {
+  color: #93e0e3;
+}
+
+.variable.parameter {
+  font-style: italic;
+  color: #8fb28f;
+}
+
+.entity.name.tag {
+  color: #6ca0a3;
+}
+
+.entity.other.attribute-name {
+  color: #f0dfaf;
+}
+
+.support.function {
+  color: #66D9EF;
+}
+
+.support.constant {
+  color: #66D9EF;
+}
+
+.support.type,
+.support.class {
+  font-style: italic;
+  color: #66D9EF;
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #dca3a3;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #AE81FF;
+}
+
+// Jade syntax
+.class.jade {
+  color: #AE81FF;
+}

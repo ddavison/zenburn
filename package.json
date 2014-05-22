@@ -1,0 +1,12 @@
+{
+  "name": "zenburn",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A zenburn theme",
+  "repository": "https://github.com/ddavison/zenburn",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  }
+}
